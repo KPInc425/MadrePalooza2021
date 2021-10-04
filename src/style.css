@@ -1,0 +1,38 @@
+#navBarContainer {
+    background-color: aqua;
+    border: 2px solid red;
+    width: 100vw;
+    height: 15vh;
+}
+
+#mainContentContainer {
+    background-color: green;
+    border: 2px solid purple;
+    width: 100vw;
+    height: 80vh;
+}
+
+#footerContainer {
+    background-color: black;
+    border: 2px solid orange;
+    width: 100vw;
+    height: 5vh;
+}
+
+#contentContainer1 {
+    background-color: red;
+    border: 2px dotted teal;
+    width: 50vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#contentContainer1 h1 {
+    font-size: xx-large;
+}
+
+#contentContainer1 h3 {
+    font-size: large;
+    color: rgba(28, 28, 28, 0.75);
+}
