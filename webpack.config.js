@@ -19,6 +19,8 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true, 
         publicPath: '/',
+        // Needed for hosting on github
+        // publicPath: './',
     },
     module: {
         rules: [

@@ -1,4 +1,4 @@
-function displayWelcomePageData(inputData) {
+function displayPageData(inputData) {
     const contentContainer1 = document.createElement('div');
     contentContainer1.id = "contentContainer1";
 
@@ -18,4 +18,4 @@ function displayWelcomePageData(inputData) {
     return contentContainer1;
 }
 
-export default displayWelcomePageData;
+export default displayPageData;
