@@ -1,6 +1,7 @@
 import birthdayMenuData from './BirthdayMenuData.js';
 import cutePicPresent from './media/gift_cute.png';
 import scaryPicPresent from './media/gift_scary.png';
+import imgChickenParm from './media/chickenParm.jpg';
 
 const welcomePageData = {
     title: "Welcome",
@@ -39,7 +40,7 @@ const menuPageDataFunction = () => {
         mainContentImg: 'https://i.imgur.com/GxKsC9b.png',
         mainContent: `First up is ${menuBirthdayArray[0].name} 
                      which includes ${menuBirthdayArray[0].description}`,
-        mainContentImg2: 'https://i.imgur.com/iVZ1dop.png',
+        mainContentImg2: imgChickenParm,
         mainContent2: `Later in the day we will be having 
                       ${menuBirthdayArray[1].name} which will be embodied by
                       ${menuBirthdayArray[1].description}`,

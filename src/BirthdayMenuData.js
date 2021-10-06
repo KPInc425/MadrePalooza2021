@@ -6,9 +6,10 @@ const menuBirthdayArray = [
                      "by everyone's favorite...Toast!",
     },
     {
-        name: "Insert Name Here",
-        description: "What does she wants to eatz? We needz " +
-                     "more information!",
+        name: "Keto Chicken Parm",
+        description: `a carbQuick encrusted Chicken Parmesan, with a side of 
+                      Zoodled Zuchini, both topped with a homemade Alfredo.
+                      ... and of course.... Toast! with Garlic!`,
     },
 ]
 
