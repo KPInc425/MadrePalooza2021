@@ -1,7 +1,7 @@
 import getZoneQuotes from './GetZenQuotes';
 import randomQuoteSelection from './RandomQuoteSelection.js';
 
-const makeSelection = async () => {
+const makeZenSelection = async () => {
     //NEED A CHECK HERE TO MAKE SURE WE DON'T CALL THE FUNCTION ON EVERY REFRESH
     const zenQuotes = await getZoneQuotes();
 
@@ -12,4 +12,4 @@ const makeSelection = async () => {
     return zenQuoteChoice
 }
 
-export default makeSelection;
+export default makeZenSelection;

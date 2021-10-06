@@ -1,38 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Roboto&display=swap');
+
+body {
+    background-color: #016a97;
+
+
+}
+
+body h1, h3, button {
+    font-family: 'Akronim', cursive;
+}
+
+body button {
+    font-size: 30px;
+    font-weight: 550;
+    border-radius: 12px;
+    border: none;
+}
+
+body p {
+    font-family: 'Roboto', sans-serif;
+}
+
 #navBarContainer {
-    background-color: aqua;
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #016a97;
+    /* border: 2px solid red; */
+    /* border-radius: 8px; */
     width: 100vw;
-    height: 15vh;
+    height: 13vh;
+    /* border-bottom: 3px solid white; */
+}
+
+
+
+#navBarContainer button {
+    height: 50px;
+    margin: 0 12px 0 12px;
+    /* padding: 20px 10px; */
 }
 
 #mainContentContainer {
-    background-color: green;
-    border: 2px solid purple;
+    /* background-color: green; */
+    /* position: relative; */
+    /* border: 2px solid purple; */
     width: 100vw;
-    height: 80vh;
+    min-height: 100%;
+    padding: 30px 0 50px 0;
+    background: url("./media/purpleFields.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#h1HappyBirthday {
+    font-size: 65px;
+    font-weight: 550;
+    color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #01343c; 
+    width: 40vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    /* border: 1px solid white; */
+    
 }
 
 #footerContainer {
-    background-color: black;
-    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #01343c;
+    color: rgb(185, 185, 185);
+    /* border: 2px solid rgb(190, 171, 134); */
+    /* padding: 0; */
+    font-family: 'Roboto', sans-serif;
+    font-size: x-small;
     width: 100vw;
-    height: 5vh;
+    height: 20px;
+}
+#footerContainer p {
+    padding: 5px 5px 0 5px;
+    
 }
 
+#footerContainer div {
+    display: flex;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#footerContainer a {
+    text-decoration: none;
+    padding-top: 5px;
+    /* margin-left: -10px; */
+}
+
+
 #contentContainer1 {
-    background-color: red;
-    border: 2px dotted teal;
-    width: 50vw;
-    height: 70vh;
+    background-color: #01343c;
+    /* border: 2px dotted teal; */
+    border-radius: 12px;
+    color: white;
+    width: 55vw;
+    /* height: 70vh; */
     margin: auto;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+
+#contentContainer1 img {
+    width: 25em;
+    border-radius: 12px;
+    margin: 20px 0 20px 0;
+}
+
+#contentContainer1 p {
+    padding: 20px 50px 25px 50px;
 }
 
 #contentContainer1 h1 {
-    font-size: xx-large;
+    font-size: 50px;
+    font-weight: 550;
 }
 
 #contentContainer1 h3 {
-    font-size: large;
-    color: rgba(28, 28, 28, 0.75);
+    font-size: x-large;
+    font-weight: 400;
+}
+
+#imgContainer {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+
+#imgContainer img {
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    border: 5px inset black;
+}
+
+
+
+#firstImg {
+    animation-name: ICFadeInOut;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
+}
+
+@keyframes ICFadeInOut {
+    0% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 black;  
 }
